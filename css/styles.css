@@ -1,22 +1,251 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
 }
+
+html::-webkit-scrollbar {
+  width: 1.4rem;
+}
+html::-webkit-scrollbar-track {
+  background: #333;
+}
+html::-webkit-scrollbar-thumb {
+  background: #9dd9de;
+}
+
+section {
+  min-height: 100vh;
+  padding: 1rem;
+  padding-top: 6.5rem;
+}
+
+body {
+  background-image: url(/images/bg.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* <!-- section1 ends here --> */
 
 /* <!-- section2 starts here --> */
+
+.body-content {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(https://templatedemo.website.com/remote/imageProxy.cfc?method=viewLibraryImage&s=QEJILSAlJyhFUEcxSEFQKVdUUjtaRypUM0FGWCZKMk5DPV5OVCVQQ08%2BKzwgCg%3D%3D&type=full);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 1rem;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.body-content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: 1 1 70rem;
+  padding: 1rem;
+}
+
+.body-headtext {
+  font-size: 16px;
+  font-family: Poppins;
+  letter-spacing: 0.3em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.body-caption {
+  font-size: 50px;
+  font-family: Poppins;
+  line-height: 1.2em;
+  color: #ffffff;
+  margin: 4rem 0rem;
+  text-align: center;
+}
+
+.btn button {
+  font-size: 16px;
+  font-family: Poppins;
+  letter-spacing: 0.04em;
+  line-height: 1.2em;
+  color: #9dd9de;
+  border: 1px solid #9dd9de;
+  padding: 10px 30px 10px 30px;
+  background-color: rgba(238, 240, 235, 0);
+  width: auto;
+  cursor: pointer;
+}
+
 /* <!-- section2 ends here --> */
 
 /* <!-- section3 starts here --> */
 /* <!-- section3 ends here --> */
 
 /* <!-- section4 starts here --> */
+
+.services {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  text-align: center;
+  color: #fff;
+}
+
+.services-content {
+  margin: rem;
+}
+
+.services-content h3 {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  font-family: "Poppins";
+  color: #535353;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.services-content h2 {
+  font-family: "Poppins";
+  color: #bababa;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.services-content p {
+  font-family: "Poppins";
+  color: #bababa;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-top: 1rem;
+  flex: 1 1 30rem;
+}
+
+/* service images */
+
+.services-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.services .services-images .images {
+  height: 25rem;
+  width: 23rem;
+  margin: 2rem 0.3rem;
+
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.services-images .images img:hover {
+  transform: scale(1.05);
+}
+
+.services .services-images .images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.services-images h2 {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  opacity: 9;
+}
 /* <!-- section4 ends here --> */
 
 /* <!-- section5 starts here --> */
 /* <!-- section5 ends here --> */
 
 /* <!-- section6 starts here --> */
-/* <!-- section6 ends here --> */
 
+.footer {
+  background: #000000;
+  padding: 1rem 5%;
+  margin-top: 8rem;
+}
+
+.footer .box-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer .box-container .box {
+  flex: 1 1 10rem;
+  margin: 2rem;
+}
+
+.footer .box-container .box h3 {
+  font-size: 1rem;
+  color: #fff;
+  padding: 1rem 0;
+  font-weight: normal;
+  border-bottom: 1px solid #9dd9de;
+}
+
+.footer .box-container .box p {
+  font-size: 1rem;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box a {
+  font-size: 1rem;
+  color: #fff;
+  padding: 1rem 0;
+  display: block;
+  text-decoration: none;
+}
+
+.footer .box-container .box p{
+    cursor: pointer;
+}
+
+.footer .box-container .box a:hover {
+  color: #9dd9de;
+}
+
+/* <!-- section6 ends here --> */
+@media screen and (max-width: 300px) {
+  .body-caption {
+    font-size: 25px;
+  }
+
+  .services .services-images .images {
+    height: 15rem;
+  }
+
+  .services-images h2{
+      font-size: 20px;
+      color: black;
+  }
+
+  .footer .box-container .box p,
+  .footer .box-container .box a {
+    font-size: 10px;
+  }
+}
