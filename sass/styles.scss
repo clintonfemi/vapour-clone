@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* section1 starts here */
+/* header-nav style */
+.header {
+    padding:1.6rem;
+     background-color:black ;
+    color: #caffff; 
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    flex-wrap      : nowrap;
+}
+
+.header__nav ul {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.header__nav ul li {
+    list-style: none;
+    padding:0 9px;
+    margin    : 0 1rem;
+    padding-bottom: 10px;
+    border-bottom: 4px solid transparent;
+
+    &:hover{
+        border-bottom: 4px solid #caffff;
+
+    }
+}
+
+ .header__nav ul li a:hover{
+    color:#caffff ;
+} 
+.header__logo h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8rem;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+.header__nav ul li a {
+    text-transform : capitalize;
+    font-size      : 1.1rem;
+     color       :white ; 
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.header__mobile-nav {
+    display        : none;
+    flex-direction : column;
+    align-items    : flex-end;
+    justify-content: center;
+    width          : 100%;
+}
+
+.header__mobile-nav ul {
+    position: fixed;
+    top: 85px;
+    left:0;
+    display         : none;
+    background-color: black;
+    text-align      : center;
+    width           : 100%;
+    transition      : all 2s ease-in-out;
+}
+
+#menu {
+    display: none;
+}
+
+#menu:checked~.dropdown {
+    display: block;
+    cursor : pointer;
+}
+
+.header__mobile-nav ul li {
+    list-style: none;
+    margin    : 0.5rem;
+    width     : 95%;
+}
+
+.header__mobile-nav ul li a:hover {
+    color           :#caffff;
+    background-color: rgb(31, 31, 39);
+}
+
+.header__mobile-nav ul li a {
+    text-transform : capitalize;
+    font-size      : 1.1rem;
+    /* color       : ; */
+    text-decoration: none;
+    color          : white;
+    display        : block;
+    text-align     : center;
+    padding        : 1rem;
+}
+
+@media screen and (max-width:660px) {
+    .header__mobile-nav {
+        display: flex;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+}
+
+/* header-nav style ends here */
+/* <!-- section1 ends here --> */
+
+/* <!-- section2 starts here --> */
+
+/* <!-- section2 ends here --> */
+
+/* <!-- section3 starts here --> */
+
+/* <!-- section3 ends here --> */
+
+/* <!-- section4 starts here --> */
+
+/* <!-- section4 ends here --> */
+
+/* <!-- section5 starts here --> */
+
+/* <!-- section5 ends here --> */
+
+/* <!-- section6 starts here --> */
+/* <!-- section6 ends here --> */
