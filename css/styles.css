@@ -88,6 +88,12 @@ body {
   cursor: pointer;
 }
 
+.btn button:hover{
+  color: #fff;
+  border: 1px solid #fff;
+  transform: scale(1.2);
+}
+
 /* <!-- section2 ends here --> */
 
 /* <!-- section3 starts here --> */
