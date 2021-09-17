@@ -15,6 +15,79 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
+  background-image: url(https://templatedemo.website.com/remote/imageProxy.cfc?method=viewLibraryImage&s=QEJILSAlJyhFUEcxSEFQKVdUUjtaRypUM0FGWCZKMk5DPV5OVCVQQ08%2BKzwgCg%3D%3D&type=full);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 1rem;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.body-content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: 1 1 70rem;
+  padding: 1rem;
+}
+
+.body-headtext {
+  font-size: 16px;
+  font-family: Poppins;
+  letter-spacing: 0.3em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.body-caption {
+  font-size: 50px;
+  font-family: Poppins;
+  line-height: 1.2em;
+  color: #ffffff;
+  margin: 4rem 0rem;
+  text-align: center;
+}
+
+.btn button {
+  font-size: 16px;
+  font-family: Poppins;
+  letter-spacing: 0.04em;
+  line-height: 1.2em;
+  color: #9dd9de;
+  border: 1px solid #9dd9de;
+  padding: 10px 30px 10px 30px;
+  background-color: rgba(238, 240, 235, 0);
+  width: auto;
+  cursor: pointer;
+}
+
+.btn button:hover{
+  color: #fff;
+  border: 1px solid #fff;
+  transform: scale(1.2);
+}
+
+/* <!-- section2 ends here --> */
+
+/* <!-- section3 starts here --> */
+/* <!-- section3 ends here --> */
+
+/* <!-- section4 starts here --> */
+
+.services {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  text-align: center;
+  color: #fff;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -35,6 +108,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+
 }
 
 .header__nav ul li {
