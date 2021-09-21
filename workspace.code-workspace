@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "..\\taxi-web"
+	},
+	{
+		"path": "..\\food website"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "taxi-web"
+  }
+}
